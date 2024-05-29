@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"  href="css/mystyle.css">
+</head>
+<body>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="news.html">lectures</a></li>
+  <li><a href="Attendance.html">Attendance</a></li>
+  <li><a href="about.html">Quiz</a></li>
+</ul>
+<br><br><br><br>
+<table>
+  <h1 class="center">class1</h1>
+  <tr>
+   <th></th>
+    <th>1</th>
+    <th>2 </th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+      <th>7</th>
+    <th>8</th>
+  </tr>
+  <tr>
+ 
+  </tr>
+  <tr>
+   <td>sunday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+   <tr>
+    <td>monday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <tr>
+     <td>thuday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+      <tr>
+       <td>wedday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <td>thuday</td>
+       <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+ 
+</table>
+<!----------------------------->
+<table>
+  <h1 class="center">claas2</h1>
+  <tr>
+   <th></th>
+    <th>1</th>
+    <th>2 </th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+      <th>7</th>
+    <th>8</th>
+  </tr>
+  <tr>
+ 
+  </tr>
+  <tr>
+   <td>sunday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+   <tr>
+    <td>monday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <tr>
+     <td>thuday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+      <tr>
+       <td>wedday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <td>thuday</td>
+       <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+ 
+</table>
+<!-----------------------------><table>
+  <h1 class="center">claas3</h1>
+  <tr>
+   <th></th>
+    <th>1</th>
+    <th>2 </th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+      <th>7</th>
+    <th>8</th>
+  </tr>
+  <tr>
+ 
+  </tr>
+  <tr>
+   <td>sunday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+   <tr>
+    <td>monday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <tr>
+     <td>thuday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+      <tr>
+       <td>wedday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <td>thuday</td>
+       <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+ 
+</table>
+<!-----------------------------><table>
+  <h1 class="center">claas4</h1>
+  <tr>
+   <th></th>
+    <th>1</th>
+    <th>2 </th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+      <th>7</th>
+    <th>8</th>
+  </tr>
+  <tr>
+ 
+  </tr>
+  <tr>
+   <td>sunday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+   <tr>
+    <td>monday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <tr>
+     <td>thuday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+      <tr>
+       <td>wedday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <td>thuday</td>
+       <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+ 
+</table>
+<!-----------------------------><table>
+  <h1 class="center">claas5</h1>
+  <tr>
+   <th></th>
+    <th>1</th>
+    <th>2 </th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+      <th>7</th>
+    <th>8</th>
+  </tr>
+  <tr>
+ 
+  </tr>
+  <tr>
+   <td>sunday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+   <tr>
+    <td>monday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <tr>
+     <td>thuday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+      <tr>
+       <td>wedday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <td>thuday</td>
+       <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+ 
+</table>
+<!-----------------------------><table>
+  <h1 class="center">claas6</h1>
+  <tr>
+   <th></th>
+    <th>1</th>
+    <th>2 </th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+      <th>7</th>
+    <th>8</th>
+  </tr>
+  <tr>
+ 
+  </tr>
+  <tr>
+   <td>sunday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+   <tr>
+    <td>monday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <tr>
+     <td>thuday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+      <tr>
+       <td>wedday</td>
+    <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+  </tr>
+    <td>thuday</td>
+       <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+    <td>lecture</td>
+      <td>lecture</td>
+    <td>lecture</td>
+ 
+</table>
+<!----------------------------->
+
+
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"  href="css/mystyle.css">
+<meta charset='utf-8' />
+<meta name='robots' content='noindex,nofollow'>
+
+ 
+<style>
+body {
+  font-family: arial;
+  font-size: 15px;
+  line-height: 1.6em;
+  background-color: #f4f4f4;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 70%;
+  margin: 50px auto;
+  overflow: auto;
+}
+
+header {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 22px;
+}
+
+footer {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 19px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration-color: white;
+}
+
+
+/********************MEDIA QUERIES**********/
+
+@media only screen and (max-width:900px) {
+  .container {
+    width: 90%;
+  }
+  header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    overflow: auto;
+    font-size: 13px;
+    text-align: center;
+  }
+}</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="news.html">lectures</a></li>
+  <li><a href="Attendance.html">Attendance</a></li>
+  <li><a href="Quiz.html">Quiz</a></li>
+</ul>
+
+<BR><BR><BR><BR>
+
+
+<!----------------->
+<div class="clock">
+    <div id="time">
+        <div class="circle" style="--color: #ff2972">
+            <div class="dots h_dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="hh"></circle>
+            </svg>
+            <div id="hours">00</div>
+        </div>
+        <div class="circle" style="--color: #fee800">
+            <div class="dots m_dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="mm"></circle>
+            </svg>
+            <div id="minutes">00</div>
+        </div>
+        <div class="circle" style="--color: #04fc43">
+            <div class="dots s_dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="ss"></circle>
+            </svg>
+            <div id="seconds">00</div>
+        </div>
+        <div class="dayTime">
+            <div id="ampm">AM</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+  <header>
+    <div class="pull-left">Quiz</div>
+    <div class="pull-right" id="myA"></div>
+  </header>
+
+  <main>
+<div>
+    <form class="questionForm" id="q1" data-question="1">
+      <h3>1. Expand HTML</h3>
+     <!--  <ul>
+        <li><input type="radio" name="q1" value="a">Hyper Link Markup Language </li>
+        <li><input type="radio" name="q1" value="b">Hyper look Markup Language/li>
+        <li><input type="radio" name="q1" value="c">Hyper Link Make Language</li>
+        <li><input type="radio" name="q1" value="d">Hyper Link Markup Look</li>
+      </ul>-->
+
+      <button id="submit">Submit</button>
+    </form>
+    <!--end q1-->
+
+    <form class="questionForm" id="q2" data-question="2">
+      <h3>2. Expand CSS</h3>
+     <!--  <ul>
+        <li><input type="radio" name="q2" value="a">Cascading Style Sheet</li>
+        <li><input type="radio" name="q2" value="b">Cascading Stand Sheet</li>
+        <li><input type="radio" name="q2" value="c">Cading Style Sheet</li>
+        <li><input type="radio" name="q2" value="d">Case Style Sheet</li>
+      </ul>-->
+
+      <button id="submit">Submit</button>
+    </form>
+    <!--end q2-->
+
+    <form class="questionForm" id="q3" data-question="3">
+      <h3>3. Expand BIT ?</h3>
+    <!--   <ul>
+        <li><input type="radio" name="q3" value="a">Binary Digit</li>
+        <li><input type="radio" name="q3" value="b">Bit Digit</li>
+        <li><input type="radio" name="q3" value="c">Bit Decimal</li>
+        <li><input type="radio" name="q3" value="d">Binary Decimal</li>
+      </ul>-->
+
+      <button id="submit">Submit</button>
+    </form>
+    <!--end q3-->
+
+    <form class="questionForm" id="q4" data-question="4">
+      <h3>4.Expand CPU?</h3>
+      <ul>
+      <!--   <li><input type="radio" name="q4" value="a">Central program unit </li>
+        <li><input type="radio" name="q4" value="b">Cetral Processing Unit</li>
+        <li><input type="radio" name="q4" value="c">Copy processing Unit</li>
+        <li><input type="radio" name="q4" value="d">Copy program Unit </li>
+      </ul>-->
+
+      <button id="submit">Submit</button>
+    </form>
+    <!--end q4-->
+
+    <!--<form class="questionForm" id="q5" data-question="5">
+      <h3>5. FTP?</h3>
+      <ul>
+      <li><input type="radio" name="q5" value="a">File transfer program</li>
+        <li><input type="radio" name="q5" value="b">File Translation program</li>
+        <li><input type="radio" name="q5" value="c">File Transfer Protocol</li>
+        <li><input type="radio" name="q5" value="d">Field Transfer Protocol</li>
+      </ul> 
+
+      <button id="submit">Submit</button>-->
+    </form>
+    <!--end q5-->
+
+    <div id="results">
+    </div>
+    <!--end results-->
+</div>
+    <br>
+  </main>
+
+  <footer>
+    <div class="pull-left">
+      Total 5 Questions
+    </div>
+    <div class="pull-right">
+
+    </div>
+  </footer>
+
+</div>
+<!--end container-->
+
+ <script src="js/myScript.js"></script> 
+</body>
+</html>

@@ -1,0 +1,202 @@
+body {margin:0;}
+
+ul {
+  
+  list-style-type: none;
+  margin: 0px 0px 10000px 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/*----------butons*/
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button {
+  
+  border-radius: 12px;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 140px 70px;
+  text-align: center;
+  text-decoration: CENTER;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 35px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+.myDiv {
+  margin:100px 0px;
+  background-color: lightblue;    
+  text-align: center;
+   display: block;
+}
+
+/*---------table-------*/
+table {
+margin: 0px 10%  0px 10%;
+  border-collapse: collapse;
+  width:80%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+td:hover {background-color: coral;}
+
+
+
+.clock {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2f363e;
+}
+
+#time {
+    display: flex;
+    gap: 40px;
+    color: #fff;
+}
+
+#time .circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time .circle svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+
+#time .circle svg circle {
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke: #191919;
+    stroke-width: 4px;
+    transform: translate(5px, 5px);
+}
+
+#time .circle svg circle:nth-child(2) {
+    stroke: var(--color);
+    stroke-dasharray: 440;
+}
+
+#time div {
+    position: absolute;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#time div span {
+    position: absolute;
+    transform: translate(-50%, 0px);
+    font-size: 0.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+#time .dayTime {
+    position: relative;
+    font-size: 1rem;
+    transform: translate(-20px);
+}
+
+.dots {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.dots::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    width: 15px;
+    height: 15px;
+    background: var(--color);
+    border-radius: 50%;
+    box-shadow: 0 0 20px var(--color), 0 0 60px var(--color);
+
+
+
+
+
+.center{
+  text-align: center;
+}
+
+.Q1 {
+  font-family: arial;
+  font-size: 15px;
+  line-height: 1.6em;
+  background-color: #f4f4f4;
+}
+.containerr {
+  width: 70%;
+  margin: 50px auto;
+  overflow: auto;
+.Q3 {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 22px;}
+ .Q4 {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 19px;}
+
+
